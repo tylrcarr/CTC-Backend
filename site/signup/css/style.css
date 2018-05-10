@@ -1,0 +1,56 @@
+@font-face {
+	font-family: "CTC-Brand";
+	src: 	url("/fonts/Running_for_a_cause.ttf") format("ttf"),
+		url("/fonts/Running_for_a_cause.woff") format("woff");
+}
+@font-face {
+	font-family: "DroidSans";
+	src:	url("/fonts/DroidSans.ttf") format("ttf"),
+		url("/fonts/DroidSans.woff") format("woff");
+}
+@font-face {
+	font-family: "DroidSans";
+	src:	url("/fonts/DroidSans.ttf") format("ttf"),
+		url("/fonts/DroidSans.woff") format("woff");
+}
+
+html {
+	position: relative;
+	min-height: 100%;
+}
+body {
+	font-family: "DroidSans";
+}
+.content h1 {
+	color: #2EC0FF;
+	font-family: "CTC-Brand";
+}
+.navbar-ctc {
+	background-color: #1D1D1D;
+}
+.navbar-ctc a {
+	color: white;
+
+}
+#main {
+	margin-top: 60px;
+}
+.navbar-brand {
+	font-family: "CTC-Brand";
+}
+.content {
+	display: none;
+	height: 100%;
+}
+#main {
+	height: 100%;
+}
+.center-brand {
+	font-family: "CTC-Brand";
+	text-align: center;
+}
+body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: #eee;
+}
